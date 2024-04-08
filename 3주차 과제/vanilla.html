@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <span>Total cilcks : 0</span>
+        <button id="btn">Click me</button>
+    </body>
+    <script>
+        let counter = 0;
+       const button = document.getElementById("btn");
+       const span = document.querySelector("span");
+       function handleClick() {
+        counter = conter+1;
+        console.log("I have been clicked");
+        span.innerText= `Total cilcks: ${counter}`;
+       }
+       button.addEventListener("click", handleClick)
+    </script>
+</html>
